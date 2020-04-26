@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Gameboy";
+  src: url(./fonts/gameboy.ttf);
+}
+
+html,
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #3c3f88;
+  font-family: "Gameboy", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--tetris-body);
+}
+
+:root {
+  --tetris-body: #c5c0be;
+  --tetris-grey: #8f8e93;
+  --tetris-lgrey: #bab6ad;
+  --tetris-dark: #404040;
+  --tetris-mdark: #6c7353;
+  --tetris-mlight: #8b956d;
+  --tetris-light: #c5d0a1;
+}
+
+a {
+  color: #9d4072;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9d4072;
+}
