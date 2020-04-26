@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React Tetris",
+  "name": "React Tetris with State Designer",
   "icons": [
     {
       "src": "favicon.ico",
