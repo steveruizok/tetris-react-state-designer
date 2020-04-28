@@ -1,8 +1,8 @@
-import * as React from "react";
+import * as React from "react"
 
-type Props = {} & React.HTMLProps<HTMLDivElement>;
+type Props = {}
 
-const Credit: React.FC<Props> = ({ children, ...rest }) => {
+const Credit: React.FC<Props> = () => {
   return (
     <div
       style={{
@@ -30,7 +30,7 @@ const Credit: React.FC<Props> = ({ children, ...rest }) => {
         </a>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Credit;
+export default Credit
